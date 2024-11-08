@@ -1,0 +1,6 @@
+services:
+  workshop:
+    build: .
+    stdin_open: true
+    tty: true
+    entrypoint: /bin/bash
